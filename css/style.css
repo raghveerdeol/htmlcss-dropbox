@@ -1,0 +1,100 @@
+/* reset  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+nav > section > ul{
+    list-style: none;
+    display: inline-block
+}
+nav > section > ul > li >a{
+    text-decoration: none;
+    padding: 2%;
+}
+header > main{
+    background-color: #b4d0e7;
+    padding: 5% 15% 0%;
+}
+header > main >section{
+    display: flex;
+    padding: 4% 0;
+}
+header > main > h1{
+    font-size: 500%;
+}
+li{
+    display: inline-block;
+    padding: 0rem 1rem;
+}
+.jumbotron{
+    width: 28%;
+}
+.top-pd{
+    padding-top: 10%;
+}
+.bottom-pd{
+    padding-bottom: 12%;
+}
+main > article{
+    width: 58%;
+    margin: 0 auto;
+}
+main > article > section{
+    padding-top: 14%;
+}
+main > article > section > h2{
+    font-size: 230%;
+}
+.fatturazione{
+    padding: 5% 0 4%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.definizione{
+    text-align: center;
+}
+.bg-blu{
+    background-color: #0061ff;
+    color: white;
+}
+button{
+    border: none;
+}
+.tasti-interni{
+    padding: 3%;
+    width: 100%;
+}
+.data-cont{
+    width: calc(92%/3);
+    line-height: 200%;
+    border: 1px solid;
+    padding: 1% 2%;
+    font-size: 81%;
+    position: relative;
+}
+hr{
+    position: absolute;
+    left: 0%;
+    width: 100%;
+}
+.micro-line{
+    left: 6%;
+    width: 15%;
+}
+article > section > div > h3{
+    padding-top: 15%;
+}
+article > section > div > ul{
+    padding: 14% 0%;
+}
