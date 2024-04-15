@@ -59,7 +59,10 @@ main > article > section > h2{
 }
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
 }
 .definizione{
     text-align: center;
@@ -97,4 +100,20 @@ article > section > div > h3{
 }
 article > section > div > ul{
     padding: 14% 0%;
+}
+.team-border{
+    border: 1px solid;
+    margin-top: 12%;
+    padding: 1%;
+}
+.team-border > p{
+    text-align: center;
+}
+.team-border > hr{
+    position: relative;
+    left: -1%;
+    width: 102%;
+}
+section > section{
+    padding: 3%;
 }
