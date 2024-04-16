@@ -26,10 +26,10 @@ header > main{
 }
 header > main >section{
     display: flex;
-    padding: 4% 0;
 }
-header > main > h1{
+header > main > section >h1{
     font-size: 500%;
+    padding-bottom: 6%;
 }
 li{
     display: inline-block;
@@ -48,10 +48,7 @@ main > article{
     width: 58%;
     margin: 0 auto;
 }
-main > article > section{
-    padding-top: 14%;
-}
-main > article > section > h2{
+h2{
     font-size: 230%;
 }
 .fatturazione{
@@ -64,7 +61,7 @@ main > article > section > h2{
 .column{
     flex-direction: column;
 }
-.definizione{
+.text-center{
     text-align: center;
 }
 .bg-blu{
@@ -106,14 +103,14 @@ article > section > div > ul{
     margin-top: 12%;
     padding: 1%;
 }
-.team-border > p{
-    text-align: center;
-}
 .team-border > hr{
     position: relative;
     left: -1%;
     width: 102%;
 }
-section > section{
-    padding: 3%;
+.wrap{
+    flex-wrap: wrap;
+}
+.vantaggi{
+    width: calc(92%/3);
 }
