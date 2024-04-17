@@ -102,6 +102,10 @@ hr{
     left: 6%;
     width: 15%;
 }
+.check > li::before{
+    content: "\2714";
+    color: blue;
+}
 article > section > div > h3{
     padding-top: 15%;
 }
@@ -112,6 +116,7 @@ article > section > div > ul{
     border: 1px solid;
     margin-top: 12%;
     padding: 1%;
+    line-height: 230%;
 }
 .team-border > hr{
     position: relative;
@@ -136,9 +141,13 @@ article > section > div > ul{
 }
 .logo-box{
     width: 50%;
+    height: 14rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .logo-box > img{
-    padding: 5rem;
+    width: 50%;
 }
 section.partner div:first-child{
     width: 65%;
@@ -187,5 +196,7 @@ footer{
 .liste-footer > li > a{
     text-decoration: none;
     color: white;
-
+}   
+.padding-footer{
+    padding: 10% 15%;
 }
