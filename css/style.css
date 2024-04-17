@@ -12,21 +12,19 @@ header > nav{
     justify-content: space-between;
     padding: 2%;
 }
-/* nav > section > ul{
-    list-style: none;
-    display: inline-block
-} */
+
 nav > section > ul > li >a{
     text-decoration: none;
 }
 header > main{
     background-color: #b4d0e7;
-    padding: 5% 15% 0%;
-    height: 42rem;
+    padding: 0% 15%;
 }
 header > main >section{
     display: flex;
+    position: relative;
 }
+
 header > main > section >h1{
     font-size: 500%;
     padding-bottom: 6%;
@@ -40,7 +38,11 @@ li{
 }
 .jumbo{
     width: 70%;
+    position: absolute;
+    top: 43%;
+    left: 30%;
 }
+
 .freccia{
     font-size: 320%;
 }
@@ -180,8 +182,8 @@ section.partner div:last-child{
 .domande{
     line-height: 500%;
 }
-.domade > h2 {
-    padding: 5%;
+.domande > h2 {
+    border-bottom: 1px solid;
 }
 .domande > p{
     border-bottom: 1px solid;
@@ -203,6 +205,7 @@ footer{
 .top-border{
     border-top: 1px solid white;
     width: 10%;
+    color: grey;
 }
 .top-border > p{
     padding-top: 50%;
