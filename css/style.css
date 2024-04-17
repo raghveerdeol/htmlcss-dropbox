@@ -15,6 +15,7 @@ header > nav{
 
 nav > section > ul > li >a{
     text-decoration: none;
+    color: #595959;
 }
 header > main{
     background-color: #b4d0e7;
@@ -39,7 +40,7 @@ li{
 .jumbo{
     width: 70%;
     position: absolute;
-    top: 43%;
+    top: 53%;
     left: 30%;
 }
 .freccia{
@@ -47,6 +48,9 @@ li{
 }
 img{
     width: 100%;
+}
+.padding-abbonamento{
+    padding-top: 15%;
 }
 .top-pd{
     padding-top: 10%;
@@ -63,6 +67,9 @@ h2{
 }
 .fatturazione{
     padding: 5% 0 4%;
+}
+.fatturazione > span{
+    padding-right: 5%;
 }
 .flex{
     display: flex;
@@ -94,7 +101,6 @@ button{
     position: relative;
 }
 .micro-line{
-    left: 6%;
     width: 15%;
 }
 .check > li::before{
@@ -102,7 +108,7 @@ button{
     color: blue;
 }
 .informazioni-abbonamento{
-    padding: 1% 6%;
+    padding: 1% 7%;
     border-top: 1px solid;
 }
 .informazioni-abbonamento > h3{
@@ -145,7 +151,7 @@ button{
 }
 .logo-box{
     width: 50%;
-    height: 14rem;
+    aspect-ratio: 1/1;
     display: flex;
 }
 .sponsor-image{
@@ -169,9 +175,18 @@ section.partner div:last-child{
 .bg-red{
     background-color: #ff1c1c;
 }
+.bg-acqua{
+    background-color: #b4d0e7;
+}
+.bg-darkblu{
+    background-color: #0d2481;
+}
+.bg-yellow{
+    background-color: #ffd830;
+}
 .prova-gratuita{
     background-color: #b4d0e7;
-    padding: 11%;
+    padding: 9% 0%;
 }
 .prova-gratuita > h2{
     width: 50%;

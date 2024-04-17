@@ -51,7 +51,7 @@
         <!-- intro pagina  -->
         <main>
             
-            <section class="wrap" >
+            <section class="wrap top-pd" >
                 <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
                 <div class="jumbotron" >
                     <p class="bottom-pd" >Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
@@ -65,16 +65,15 @@
             </section>
         </main>
     </header>
-
     <main>
         <article class="small-container">
             <!-- sezione scelta abbonamente  -->
-            <section class="top-pd" >
+            <section class="padding-abbonamento" >
                 <h2>Trova il piano business che fa per te</h2>
                 <!-- tasti input  -->
                 <div class="fatturazione" >
-                    <input type="radio">Fatturazione mensile
-                    <input type="radio">Fatturazione annuale
+                    <span><input type="radio" id="rad" name="Fatturazione" value="Fatturazione mensile" checked/>Fatturazione mensile</span>
+                    <span><input type="radio" id="rad" name="Fatturazione" value="Fatturazione annuale"/>Fatturazione annuale</span>
                 </div>
             </section>
             <!-- tipo di abbonamenti  -->
@@ -300,32 +299,34 @@
 
             <section class="flex column space-around">
                 <img class="sponsor-image" src="./img/designit.svg" alt="Designit">
-                <p>"I membri del nostro team lavorano costantemente in paesi,fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facili quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Peper".</p>
+                <hr class="micro-line">
+                <p class="bottom-pd top-pd">"I membri del nostro team lavorano costantemente in paesi,fusi orari e uffici diversi. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facili quanto Dropbox e Dropbox Paper. Ora molte soluzioni sono compatibili con queste esigenze, ma nessuna è facile quanto Dropbox Peper".</p>
                 <p>Morten thomsen, Global IT Lead</p>
             </section>
 
             <section class="flex wrap loghi-azz">
-                <div class="logo-box center bg-green">
-                    <img class="sponsor-image" src="./img/designit.svg" alt="Designit">
-                </div>
-                <div class="logo-box center bg-brown">
-                    <img class="sponsor-image" src="./img/arizona_state_university.svg" alt="ASU">
-                </div>
-                <div class="logo-box center bg-blu-box">
-                    <img class="sponsor-image" src="./img/university_of_florida.svg" alt="UF">
-                </div>
                 <div class="logo-box center bg-red">
-                    <img class="sponsor-image" src="./img/topps.svg" alt="topps">
+                    <img class="sponsor-image" src="./img/world_bicycle_relief.svg" alt="world_bicycle_relief">
+                </div>
+                <div class="logo-box center bg-acqua">
+                    <img class="sponsor-image" src="./img/hearst_corp.svg" alt="hearst_corp">
+                </div>
+                <div class="logo-box center bg-darkblu">
+                    <img class="sponsor-image" src="./img/lonely_planet.svg" alt="lonely_planet">
+                </div>
+                <div class="logo-box center bg-yellow">
+                    <img class="sponsor-image" src="./img/clear_channel.svg" alt="clear_channel">
                 </div>
             </section>
         </article>
 
-        <article class="flex prova-gratuita">
-            <h2>Porta dropbox business nella tua azienda</h2>
-            <div>
-                <button class="bg-white" >Inizia la prova gratuita</button>
-            </div>
-            
+        <article class="bg-acqua">
+            <section class="flex small-container prova-gratuita">
+                <h2>Porta dropbox business nella tua azienda</h2>
+                <div>
+                    <button class="bg-white" >Inizia la prova gratuita</button>
+                </div>
+            </section>
         </article>
         
         <article class="small-container domande top-pd bottom-pd">
