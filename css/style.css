@@ -85,12 +85,18 @@ h2{
     background-color: #0061ff;
     color: white;
 }
+.bg-white{
+    background-color: white;
+}
+.button-border{
+    border: 1px solid;
+}
 button{
     border: none;
     padding: 0.5rem;
 }
 .tasti-interni{
-    padding: 3%;
+    padding: 5%;
     width: 100%;
 }
 .data-cont{
@@ -157,11 +163,17 @@ button{
 .sponsor-image{
     width: 50%;
 }
+.partner{
+    position: relative;
+}
 section.partner div:first-child{
     width: 65%;
 }
 section.partner div:last-child{
     width: 30%;
+    position: absolute;
+    right: 0;
+    top: 26%;
 }
 .bg-green{
     background-color: #a2d39b;
@@ -197,11 +209,12 @@ section.partner div:last-child{
 .domande{
     line-height: 500%;
 }
-.domande > h2 {
+.domande > p,
+.domande > h2{
     border-bottom: 1px solid;
 }
-.domande > p{
-    border-bottom: 1px solid;
+.freccia-giù{
+    padding-right: 3%;
 }
 footer{
     background-color: #000000;
